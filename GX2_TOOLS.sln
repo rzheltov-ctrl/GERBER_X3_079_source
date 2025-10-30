@@ -1,0 +1,20 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GGEasy_x32_msvc", "C:/GERBER_X3-0.7.9/GGEasy\GGEasy_x32_msvc.vcxproj", "{E46B400E-648B-3535-983A-F90DE343CEFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E46B400E-648B-3535-983A-F90DE343CEFE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E46B400E-648B-3535-983A-F90DE343CEFE}.Debug|Win32.Build.0 = Debug|Win32
+		{E46B400E-648B-3535-983A-F90DE343CEFE}.Release|Win32.ActiveCfg = Release|Win32
+		{E46B400E-648B-3535-983A-F90DE343CEFE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

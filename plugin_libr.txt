@@ -1,0 +1,16 @@
+$(QTDIR)\plugins\printsupport\windowsprintersupport.lib
+$(QTDIR)\plugins\platforms\qwindows.lib
+$(QTDIR)\plugins\styles\qwindowsvistastyle.lib
+$(QTDIR)\plugins\imageformats\qtga.lib
+$(QTDIR)\plugins\imageformats\qtiff.lib
+$(QTDIR)\plugins\imageformats\qwbmp.lib
+$(QTDIR)\plugins\imageformats\qwebp.lib
+$(QTDIR)\plugins\imageformats\qgif.lib
+$(QTDIR)\plugins\imageformats\qicns.lib
+$(QTDIR)\plugins\imageformats\qico.lib
+$(QTDIR)\plugins\imageformats\qjpeg.lib
+$(QTDIR)\lib\qtlibjpeg.lib
+$(QTDIR)\lib\qtharfbuzz.lib
+$(QTDIR)\lib\qtpcre2.lib
+$(QTDIR)\lib\translator.lib
+$(QTDIR)\lib\preprocessor.lib
