@@ -10,7 +10,7 @@ V0.7.9
 Пример работы на rutube https://rutube.ru/video/693c69bfa10a9716b1bbb56b58717436/ 
 
 ФОРУМ ПРОГРАММЫ: https://cnc3018.ru/threads/ggeasy-grber2gcode-frezerovka-pechatnyx-plat-na-chpu-zasvetka-lazerom-izuchaem-delimsja-opytom-i-dostizhenijami.2231/
-
+portable : https://github.com/niconson/Gerber_X3-0.7.9_release/tree/main
 
 Program for preparing G-code from Gerber (RS-274X Revision 2020.09) files for CNC milling.
 Partial support for DXF files.
@@ -20,3 +20,4 @@ Supported operating systems include Windows 7 and above, can be built in QT.
 Rutube leaarning example https://rutube.ru/video/693c69bfa10a9716b1bbb56b58717436/
 
 PROGRAM FORUM https://cnc3018.ru/threads/ggeasy-grber2gcode-frezerovka-pechatnyx-plat-na-chpu-zasvetka-lazerom-izuchaem-delimsja-opytom-i-dostizhenijami.2231/
+portable : https://github.com/niconson/Gerber_X3-0.7.9_release/tree/main
