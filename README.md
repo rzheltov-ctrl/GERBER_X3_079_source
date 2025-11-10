@@ -5,13 +5,14 @@ V0.7.9. Сделана для Схематор&Платформ https://github.c
 Частичная поддержка файлов DXF.
 
 Требуемая для сборки библиотека qt 5.12.10
-Сборка в VS 2022, с++ , расширение qt vs tool версии 2.10 или 3.4.1 
+Сборка в VS 2022, с++ , плаптатформа Visual Studio 2017 (v141), с++ расширение qt vs tool версии 2.10 (windows 7) или 3.4.1 (windows 10 и выше)
 Поддерживаемые  ОС Windows 7 и выше, возможна сборка в QT.
 Пример работы на rutube https://rutube.ru/video/693c69bfa10a9716b1bbb56b58717436/ 
 
 Program for preparing G-code from Gerber (RS-274X Revision 2020.09) files for CNC milling.
 Partial support for DXF files.
 
-The required library for building is qt 5.12.10. Build in VS 2022, C++, qt vs tool extension version 2.10 or 3.4.1.
+The required library for building is qt 5.12.10. Build in VS 2022, C++,platform Visual Studio 2017 (v141),  qt vs tool extension version 2.10 (windows 7) 
+or 3.4.1. (windows 10 and above)
 Supported operating systems include Windows 7 and above, can be built in QT.
 Rutube leaarning example https://rutube.ru/video/693c69bfa10a9716b1bbb56b58717436/
