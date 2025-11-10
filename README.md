@@ -1,5 +1,5 @@
 # GERBER_X3
-V0.7.9 Сделвнв для Схематор&Платформ https://github.com/niconson/FreePCB-2
+V0.7.9 Сделана для Схематор&Платформ https://github.com/niconson/FreePCB-2
 
 Программа для подготовки Г-кода из файлов Gerber (RS-274X Revision 2020.09) для фрезеровки плат на ЧПУ.
 Частичная поддержка файлов DXF.
