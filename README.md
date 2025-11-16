@@ -11,7 +11,8 @@ V0.7.9
 
 Поддерживаемые ОС Windows 7 и выше.
 
-Rutube примеры обучения https://rutube.ru/video/693c69bfa10a9716b1bbb56b58717436/ Релиз-x64: https://github.com/niconson/Gerber_X3-0.7.9_release
+Rutube примеры обучения https://rutube.ru/video/693c69bfa10a9716b1bbb56b58717436/ 
+Релиз-x64: https://github.com/niconson/Gerber_X3-0.7.9_release
 
 Gerber viewer and editor, g-code maker.Тhis program is made for Schemator&Platforms [https://github.com/niconson/FreePCB-2], (https://github.com/niconson/PlatForm)
 
