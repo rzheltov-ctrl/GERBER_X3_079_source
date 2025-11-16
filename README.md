@@ -32,6 +32,7 @@ Partial support for DXF files.
 
 
 Другие версии программы:
+
 Other versions:
 
 * Windows: [x86](https://github.com/XRay3D/GERBER_X2/releases)
