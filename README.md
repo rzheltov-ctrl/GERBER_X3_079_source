@@ -3,7 +3,7 @@ V0.7.9
 
 Программа для подготовки Г-кода из файлов Gerber (RS-274X Revision 2020.09) для фрезеровки плат на ЧПУ.
 Частичная поддержка файлов DXF.
-Просмотрщик,редактор Гербер-файлов, создатель G-code - это программа сделана для Схематор&Платформ https://github.com/niconson/FreePCB-2
+Просмотрщик,редактор Гербер-файлов, создатель G-code - это программа сделана для Схематор&Платформ https://github.com/niconson/PlatForm [https://github.com/niconson/FreePCB-2]
 
 Требуемая для сборки библиотека qt 5.12.10 либо 5.12.12.
 
@@ -13,7 +13,7 @@ V0.7.9
 
 Rutube примеры обучения https://rutube.ru/video/693c69bfa10a9716b1bbb56b58717436/ Релиз-x64: https://github.com/niconson/Gerber_X3-0.7.9_release
 
-Gerber viewer and editor, g-code maker.Тhis program is made for Schemator&Platforms https://github.com/niconson/FreePCB-2
+Gerber viewer and editor, g-code maker.Тhis program is made for Schemator&Platforms [https://github.com/niconson/FreePCB-2], (https://github.com/niconson/PlatForm)
 
 Required for building library qt 5.12.10 or 5.12.12.
 
