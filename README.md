@@ -11,7 +11,7 @@ V0.7.9
 
 Поддерживаемые ОС Windows 7 и выше.
 
-Rutube примеры обучения https://rutube.ru/video/693c69bfa10a9716b1bbb56b58717436/ исходники: https://github.com/rzheltov-ctrl/GERBER_X3_079_source
+Rutube примеры обучения https://rutube.ru/video/693c69bfa10a9716b1bbb56b58717436/ Релиз-x64: https://github.com/niconson/Gerber_X3-0.7.9_release
 
 Gerber viewer and editor, g-code maker.Тhis program is made for Schemator&Platforms https://github.com/niconson/FreePCB-2
 
@@ -23,7 +23,7 @@ Supported OS Windows 7 and above
 
 Rutube leaarning example https://rutube.ru/video/693c69bfa10a9716b1bbb56b58717436/
 
-source code : https://github.com/rzheltov-ctrl/GERBER_X3_079_source
+Release x64 : https://github.com/niconson/Gerber_X3-0.7.9_release
 
 Program for preparing G-code from Gerber (RS-274X Revision 2020.09) files for CNC milling.
 Partial support for DXF files.
@@ -32,6 +32,7 @@ Partial support for DXF files.
 
 
 Другие версии программы:
+Other versions:
 
 * Windows: [x86](https://github.com/XRay3D/GERBER_X2/releases)
 * Windows: [amd64](https://github.com/XRay3D/GERBER_X2/releases)
