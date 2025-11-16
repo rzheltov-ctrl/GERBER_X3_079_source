@@ -1,0 +1,1158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Distribution Files">
+      <UniqueIdentifier>{B83CAF91-C7BF-462F-B76C-EA11631F866C}</UniqueIdentifier>
+      <Extensions>*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Distribution Files">
+      <UniqueIdentifier>{B83CAF91-C7BF-462F-B76C-EA11631F866C}</UniqueIdentifier>
+      <Extensions>*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aboutform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\file\abstractfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\file\abstractnode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gi\aperturepathitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gi\bridgeitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clipper\clipper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="colorselector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gerber\compdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gerber\compmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gerber\compnode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gi\componentitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gerber\compview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\formsutil\depthform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="doublespinbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\drillform\drillform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gi\drillitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\drillform\drillmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\drillform\drillpreviewgi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\tables\dxf_abstracttable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\entities\dxf_arc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\entities\dxf_attdef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\dxf_block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\section\dxf_blocks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\entities\dxf_circle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\dxf_codedata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\entities\dxf_dummy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\entities\dxf_ellipse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\section\dxf_entities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\entities\dxf_entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\dxf_file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\entities\dxf_graphicobject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\entities\dxf_hatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\section\dxf_headerparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\entities\dxf_insert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\tables\dxf_layer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\tables\dxf_layermodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\entities\dxf_line.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\entities\dxf_lwpolyline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\entities\dxf_mtext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\dxf_node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\dxf_parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\entities\dxf_point.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\entities\dxf_polyline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\section\dxf_sectionparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\entities\dxf_solid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\entities\dxf_spline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\section\dxf_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\entities\dxf_text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\dxf_types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\entities\dxf_vec2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dxf\entities\dxf_vertex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\graphicsview\edid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\formsutil\errordialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gi\erroritem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\excellon\excellondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\excellon\exfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\excellon\exformatstate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\excellon\exnode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\excellon\exparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filetree\filemodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filetree\foldernode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\formsutil\formsutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gerber\gbraperture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gerber\gbrattributes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gerber\gbrcomponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gerber\gbrfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gerber\gbrnode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gerber\gbrparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gcode\gccreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gcode\gcfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gcode\gch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gcode\gcnode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\gcodepropertiesform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gcode\gcpocketoffset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gcode\gcpocketraster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gcode\gcprofile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gcode\gcthermal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gcode\gcutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gcode\gcvoronoi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gi\gerberitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gi\graphicsitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\graphicsview\graphicsview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gi\itemgroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gcode\voroni\jc_voronoi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gerber\mathparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clipper\myclipper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\file\parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gi\pathitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\pocketoffsetform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\pocketrasterform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="point.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\profileform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="project.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\graphicsview\qdruler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filetree\radiodelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="recent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\graphicsview\scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shapes\shape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shapes\sharc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shapes\shcircle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shapes\shcreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shapes\shhandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shapes\shnode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shapes\shpolyline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shapes\shrectangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shapes\shtext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shapes\shtextdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filetree\sidedelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filetree\textdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thermal\thermaldelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thermal\thermalform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thermal\thermalmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thermal\thermalnode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thermal\thermalpreviewitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tooldatabase\tool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tooldatabase\tooldatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tooldatabase\tooleditdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tooldatabase\tooleditform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tooldatabase\toolitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tooldatabase\toolmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\formsutil\toolselectorform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tooldatabase\tooltreeview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filetree\treeview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filetree\typedelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="forms\voronoiform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="aboutform.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\file\abstractfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\file\abstractnode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gi\aperturepathitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="application.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="gi\bridgeitem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\clipper\clipper.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="colorselector.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\gerber\compdialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\gerber\compmodel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\gerber\compnode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gi\componentitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="..\gerber\compview.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="datastream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="forms\formsutil\depthform.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="doublespinbox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="forms\drillform\drillform.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="gi\drillitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="forms\drillform\drillmodel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="forms\drillform\drillpreviewgi.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\dxf\tables\dxf_abstracttable.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\dxf\entities\dxf_arc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxf\entities\dxf_attdef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxf\dxf_block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxf\section\dxf_blocks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxf\entities\dxf_circle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="..\dxf\dxf_codedata.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\dxf\entities\dxf_dummy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxf\entities\dxf_ellipse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxf\section\dxf_entities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="..\dxf\entities\dxf_entity.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\dxf\dxf_file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxf\entities\dxf_graphicobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxf\entities\dxf_hatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxf\section\dxf_headerparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxf\entities\dxf_insert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxf\tables\dxf_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="..\dxf\tables\dxf_layermodel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\dxf\entities\dxf_line.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxf\entities\dxf_lwpolyline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxf\entities\dxf_mtext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxf\dxf_node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="..\dxf\dxf_parser.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\dxf\entities\dxf_point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxf\entities\dxf_polyline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="..\dxf\section\dxf_sectionparser.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\dxf\entities\dxf_solid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="..\dxf\entities\dxf_spline.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\dxf\section\dxf_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxf\entities\dxf_text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="..\dxf\dxf_types.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\dxf\entities\dxf_vec2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dxf\entities\dxf_vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\graphicsview\edid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="forms\formsutil\errordialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="gi\erroritem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\excellon\excellon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="..\excellon\excellondialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\excellon\exfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\excellon\exnode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="..\excellon\exparser.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\excellon\extypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="filetree\filemodel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="filetree\foldernode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="forms\formsutil\formsutil.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\gerber\gbraperture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="..\gerber\gbrattributes.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\gerber\gbrcomponent.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\gerber\gbrfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="..\gerber\gbrnode.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\gerber\gbrparser.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\gerber\gbrtypes.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\gcode\gccreator.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\gcode\gcfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="..\gcode\gch.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\gcode\gcnode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gcode\gcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="forms\gcodepropertiesform.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\gcode\gcpocketoffset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gcode\gcpocketraster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gcode\gcprofile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gcode\gcthermal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gcode\gctypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gcode\gcutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gcode\gcvoronoi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gi\gerberitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="gi\graphicsitem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\graphicsview\graphicsview.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="gi\itemgroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gcode\voroni\jc_voronoi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="leakdetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="mainwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\gerber\mathparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\clipper\myclipper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="openingdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="..\file\parser.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="gi\pathitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="forms\pocketoffsetform.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="forms\pocketrasterform.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="forms\profileform.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="project.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\graphicsview\qdruler.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="filetree\radiodelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="recent.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\graphicsview\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="settingsdialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\shapes\shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shapes\sharc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shapes\shcircle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shapes\shcreator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shapes\shhandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shapes\shheaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shapes\shnode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shapes\shpolyline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shapes\shrectangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shapes\shtext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="..\shapes\shtextdialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="filetree\sidedelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="splashscreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="filetree\textdelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\thermal\thermal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="..\thermal\thermaldelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\thermal\thermalform.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\thermal\thermalmodel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\thermal\thermalnode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="..\thermal\thermalpreviewitem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\thermal\thvars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tooldatabase\tool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="tooldatabase\tooldatabase.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="tooldatabase\tooleditdialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="tooldatabase\tooleditform.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="tooldatabase\toolitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="tooldatabase\toolmodel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="forms\formsutil\toolselectorform.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="tooldatabase\tooltreeview.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="filetree\treeview.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="filetree\typedelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="forms\voronoiform.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="translations\GGEasy_en.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="translations\GGEasy_ru.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="aboutform.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="colorselector.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="..\gerber\compdialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="forms\drillform\drillform.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="forms\formsutil\errordialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="..\excellon\excellondialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="forms\gcodepropertiesform.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="forms\pocketoffsetform.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="forms\pocketrasterform.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="forms\profileform.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="settingsdialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="..\shapes\shtextdialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="..\thermal\thermalform.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="tooldatabase\tooldatabase.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="tooldatabase\tooleditdialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="tooldatabase\tooleditform.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="forms\voronoiform.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\256.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\qtreeviewstylesheet\QTreeView.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\tool\drill.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\tool\endmill.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\tool\engraving.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolpath\pock_offs_climb.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolpath\pock_offs_conv.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolpath\pock_rast_climb.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolpath\pock_rast_conv.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolpath\prof_in_climb.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolpath\prof_in_conv.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolpath\prof_on_climb.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolpath\prof_on_conv.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolpath\prof_out_climb.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolpath\prof_out_conv.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="res\resources.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ChangeLog.txt">
+      <Filter>Distribution Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="myapp.rc" />
+  </ItemGroup>
+</Project>
