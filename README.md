@@ -15,6 +15,8 @@ Rutube примеры обучения https://rutube.ru/video/693c69bfa10a9716b
 
 Релиз-x64: https://github.com/niconson/Gerber_X3-0.7.9_release
 
+______________________________________________________________________________
+
 Gerber viewer and editor, g-code maker.Тhis program is made for Schemator&Platforms [https://github.com/niconson/FreePCB-2], (https://github.com/niconson/PlatForm)
 
 Required for building library qt 5.12.10 or 5.12.12.
