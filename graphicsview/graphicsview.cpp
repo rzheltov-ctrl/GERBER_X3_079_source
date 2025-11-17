@@ -154,28 +154,38 @@ void GraphicsView::zoom100()
 void GraphicsView::zoomIn()
 {
    // if (getScale() > 10000.0)
-  //      return;
+    //   return;
    
     if (GlobalSettings::guiSmoothScSh()) {
-        anim(this, "scale", getScale(), getScale() * zoomFactor2);
+        anim(this, "scale", getScale(), getScale() * zoomFactor);
     } else {
         scale(zoomFactor, zoomFactor);
-        updateRuler();
+      //  updateRuler();
     }
 }
 
 void GraphicsView::zoomOut()
 {
     //if (getScale() < 1.0)
-     //   return;
+    //   return;
   
-    if (GlobalSettings::guiSmoothScSh()) {
+ /*/   if (GlobalSettings::guiSmoothScSh()) {
         anim(this, "scale", getScale(), getScale() * (1.0 / zoomFactor2));
     } else {
-        scale(1.0 / zoomFactor, 1.0 / zoomFactor);
+        scale(1.0 / zoomFactor2 , 1.0 / zoomFactor2);
         updateRuler();
     }
+*/
+    if (GlobalSettings::guiSmoothScSh()) {
+        anim(this, "scale", getScale(), getScale() * 0.588);
+    }
+    else {
+        scale(0.588, 0.588);
+      //  updateRuler();
+    }
 }
+
+
 
 void GraphicsView::fitInView(QRectF dstRect, bool withBorders)
 {
@@ -262,7 +272,16 @@ void GraphicsView::wheelEvent(QWheelEvent* event)
 
     switch (event->modifiers()) {
     case Qt::ControlModifier:
-      
+        //roman   
+     //   if (abs(delta) == 120) {
+            //  setInteractive(false);
+       //     if (delta > 0)
+        //        zoomIn();
+        //    else
+        //        zoomOut();
+            //   setInteractive(true);
+      //  }
+
         break;
     case Qt::ShiftModifier:
         if (!event->angleDelta().x()) {
@@ -275,29 +294,34 @@ void GraphicsView::wheelEvent(QWheelEvent* event)
         }
         break;
     case Qt::NoModifier:
-        //roman   
-        //  if (abs(delta) == 120) {
-          //  setInteractive(false);
-            if (delta > 0)
-                zoomIn();
-            else
-                zoomOut();
-         //   setInteractive(true);
         
+        if (delta > 0)
+            zoomIn();
+        else
+            zoomOut();
+    
+        /*   if (!event->angleDelta().x()) {
+                    auto scrollBar = QAbstractScrollArea::verticalScrollBar();
+                    if (GlobalSettings::guiSmoothScSh()) {
+                        anim(scrollBar, "value", scrollBar->value(), scrollBar->value() - scrollBar->pageStep() / (delta > 0 ? scbarScale : -scbarScale));
+                    }
+                    else {
+                        scrollBar->setValue(scrollBar->value() - delta);
+                    }
+                }
+                else {
+                    //   QAbstractScrollArea::horizontalScrollBar()->setValue(QAbstractScrollArea::horizontalScrollBar()->value() - (event->delta()));
 
-        if (!event->angleDelta().x()) {
-            auto scrollBar = QAbstractScrollArea::verticalScrollBar();
-            if (GlobalSettings::guiSmoothScSh()) {
-                anim(scrollBar, "value", scrollBar->value(), scrollBar->value() - scrollBar->pageStep() / (delta > 0 ? scbarScale : -scbarScale));
-            } else {
-                scrollBar->setValue(scrollBar->value() - delta);
-            }
-        } else {
-            //   QAbstractScrollArea::horizontalScrollBar()->setValue(QAbstractScrollArea::horizontalScrollBar()->value() - (event->delta()));
-        }
+                }
+            
+        */
+
         break;
     default:
         //QGraphicsView::wheelEvent(event);
+
+       
+
         return;
     }
     mouseMove(mapToScene(pos));
