@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="ru_RU">
 <context>
@@ -3517,7 +3517,7 @@ without width and without contacts.</source>
     <message>
         <location filename="../settingsdialog.ui" line="567"/>
         <source>Spindle/Laser Off:</source>
-        <translation>Включение шпинделя / лазера:</translation>
+        <translation>Выключение шпинделя / лазера:</translation>
     </message>
     <message>
         <location filename="../settingsdialog.ui" line="581"/>
