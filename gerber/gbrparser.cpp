@@ -168,7 +168,7 @@ void Parser::parseLines(const QString& gerberLines, const QString& fileName)
 
         } // End of file parsing
 
-        if (file()->isEmpty()) {
+        if (file()->isEmpty()&& file() == NULL) {
             delete m_file;
         } else {
             if (m_file->shortName().contains("bot", Qt::CaseInsensitive))

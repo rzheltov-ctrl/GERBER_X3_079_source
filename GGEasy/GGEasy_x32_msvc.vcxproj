@@ -122,7 +122,7 @@
     <QtModules>core;opengl;gui;widgets;printsupport;concurrent</QtModules>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="QtSettings">
-    <QtInstall>Qt_qt.5.12.12</QtInstall>
+    <QtInstall>QT_12_10_64</QtInstall>
     <QtModules>core;opengl;gui;svg;widgets;printsupport;concurrent</QtModules>
     <QtPlugin>true</QtPlugin>
     <QtDeploy>false</QtDeploy>
